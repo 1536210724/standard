@@ -1,0 +1,26 @@
+#测试
+
+
+1688:
+  url: https://gw.open.1688.com/openapi/
+  AppKey: 7611870
+  AppSecret: vWtU6kKtAyt
+  access_token: 2d800d83-0e05-4f95-b623-88e109883057
+
+i8:
+  url: http://1.28.40.107:8000
+  user: 9999
+  pwd: xtjt2020
+  database: '0001'
+  ocode: '000'
+  userphid: 271200106000001
+  dblink: ConnectType=SqlClient;Server=192.168.99.15;Database=NG0001;User Id=sa;Password=XTJTi8
+
+
+#http 请求相关
+http:
+  maxTotal: 800
+  defaultMaxPerRoute: 80
+  connectTimeout: 60000
+  connectionRequestTimeout: 300000
+  socketTimeout: 120000
